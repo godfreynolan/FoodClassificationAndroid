@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food Classifier</string>
+    <string name="uploadedContentDescription">Uploaded image from gallery.</string>
+    <string name="clickClassify">Click to Classify</string>
+</resources>
