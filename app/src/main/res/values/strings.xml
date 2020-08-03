@@ -2,4 +2,23 @@
     <string name="app_name">Food Classifier</string>
     <string name="uploadedContentDescription">Uploaded image from gallery.</string>
     <string name="clickClassify">Click to Classify</string>
+
+    <string name="unknown">Unknown Food</string>
+    <string name="model_name">food_classifier_model.tflite</string>
+    <string name="label_name">labels.txt</string>
+    <string name="sample_image_type">.*.bmp</string>
+
+    <string name="nav_sample">Sample Images</string>
+    <string name="nav_upload">Upload an Image</string>
+    <string name="nav_list">Food Label List</string>
+    <string name="nav_about">About</string>
+
+    <string name="open_nav_drawer">Open Navigation Drawer</string>
+    <string name="close_nav_drawer">Close Navigation Drawer</string>
+    <string name="nav_menu_header">Menu</string>
+
+    <string name="upload_add_image">Click the \"+\" to upload an image</string>
+
+    <string name="about_DataSet">&lt;a href="https://www.kaggle.com/dansbecker/food-101">Food101 Dataset&lt;/a></string>
+    <string name="about_GitHub">&lt;a href="https://github.com/riis/FoodClassificationAndroid">Food Classifier Github&lt;/a></string>
 </resources>
