@@ -5,7 +5,7 @@
 
     <string name="unknown">Unknown Food</string>
     <string name="model_name">food_classifier_model.tflite</string>
-    <string name="label_name">labels.txt</string>
+    <string name="label_name">CapitalLabels.txt</string>
     <string name="sample_image_type">.*.bmp</string>
 
     <string name="nav_sample">Sample Images</string>
