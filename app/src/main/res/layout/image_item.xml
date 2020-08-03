@@ -11,13 +11,14 @@
     >
 
     <ImageView
-        android:id="@+id/dogImage"
+        android:id="@+id/sampleImage"
         android:layout_width="wrap_content"
         android:layout_height="224dp"
-        android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:transitionName="tImage" />
+        android:adjustViewBounds="true"
+        android:transitionName="tImage"
+        android:layout_gravity="center_horizontal"
+        />
 
     <!-- Used for the ripple effect on touch -->
     <LinearLayout
@@ -29,7 +30,7 @@
         android:orientation="horizontal" />
 
     <LinearLayout
-        android:id="@+id/dogNameHolder"
+        android:id="@+id/nameHolder"
         android:transitionName="tNameHolder"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -38,7 +39,7 @@
         android:background="@android:color/black">
 
         <TextView
-            android:id="@+id/dogName"
+            android:id="@+id/sampleName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
